@@ -1,4 +1,8 @@
 image: ruby
+services:
+  - postgres
+  - redis
 script:
   - ruby -v
   - bundle version
+  - netstat -ant
