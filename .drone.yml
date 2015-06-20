@@ -1,0 +1,4 @@
+image: ruby
+script:
+  - ruby -v
+  - bundle version
